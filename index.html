@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joshua Reiss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <h1 class="quicksand">Joshua Reiss</h1>
+  <h3 class="quicksand">Software Engineer</h3>
+  <div id="buttons">
+    <input id="jobsbutton" class="unclicked" type="button" value="Work History" class="quicksand" onclick="showJobs()"></input>
+    <input id="interestsbutton" class="unclicked" type="button" value="Interests" class="quicksand" onclick="showInterests()"></input>
+    <input id="linksbutton" class="unclicked" type="button" value="Links" class="quicksand" onclick="showLinks()"></input>
+  </div>
+  <div id="jobs" class="displayFalse">
+    <a href="https://www.johnhancock.com/index.html"><img src="jh.png"></a>
+    <a href="https://www.gmo.com"><img src="gmo.jpg"></a>
+    <a href="https://www.bloomberg.com/"><img src="bloomberg.jpg"></a>
+  </div>
+  <div id="interests" class="displayFalse">
+    <a href="https://ebird.org/profile/NDY3NjA3OQ/world"><img src="ebird.jpg"></a>
+    <a href="https://www.pgstats.com/ultimate/player/jreiss1923?id=S2124114"><img src="pgstats.png"></a>
+    <a href="https://www.goodreads.com/user/show/146025753-joshua-reiss"><img src="goodreads.png"></a>
+  </div>
+  <div id="links" class="displayFalse">
+    <a href="https://github.com/jreiss1923"><img src="github.png"></a>
+    <a href="https://www.linkedin.com/in/joshua-reiss-2131b3170/"><img src="linkedin.png"></a>
+    <a href="resume.pdf" download><img src="resume.png"></a>
+  </div>
+</body>
+</html>
